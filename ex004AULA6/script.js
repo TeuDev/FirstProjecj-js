@@ -1,2 +1,2 @@
 let nome = window.prompt('Qualé o seu nome?')
-document.write(` Olá ${nome}, Seu nome tem ${nome.length} letras`)
+document.write(` Olá <strong>${nome}</strong>, Seu nome tem ${nome.length} letras`)
